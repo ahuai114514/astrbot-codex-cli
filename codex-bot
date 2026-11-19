@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+export CODEX_HOME=/AstrBot/data/codex-cli/home
+exec /AstrBot/data/codex-cli/runtime/node_modules/.bin/codex "$@"

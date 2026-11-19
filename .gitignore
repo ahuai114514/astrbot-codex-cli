@@ -1,0 +1,10 @@
+home/
+runtime/
+data/
+logs/
+.codex/
+auth.json
+.env
+.env.*
+__pycache__/
+*.py[cod]

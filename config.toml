@@ -1,0 +1,21 @@
+model_provider = "cctq"
+model = "gpt-6.1-sol"
+model_context_window = 272000
+model_auto_compact_token_limit = 240000
+model_reasoning_effort = "medium"
+personality = "pragmatic"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[analytics]
+enabled = false
+
+[features]
+plugins = false
+apps = false
+
+[model_providers.cctq]
+name = "openai"
+base_url = "https://www.cctq.ai/v1"
+wire_api = "responses"
+requires_openai_auth = true
